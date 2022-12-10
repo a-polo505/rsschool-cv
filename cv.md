@@ -4,7 +4,6 @@
 
 ✅ My goal is to become a frontend developer.
 
-___
 
 ## Contacts
 
