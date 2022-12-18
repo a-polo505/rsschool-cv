@@ -52,6 +52,14 @@ h2 {
     max-width: 112px;
     margin: 2px;
 }
+#profile-image {
+    max-width: 100%!important;
+}
+#project-image {
+    max-width: 180px;
+    height: 180px;
+    margin-top: 12px;
+}
 .page-container {
     flex: 1 1;
     display: flex;
@@ -87,9 +95,9 @@ footer {
     align-content: center;
     align-items: center;
 }
-.logo-school {
+#logo-school {
     max-width: 64px;
-    max-height: 100px;
+    height: 100px;
 }
 .logo-container {
     background:linear-gradient(261.62deg, #f4f747 -4.66%, #fcdf3e 110.39%);-webkit-text-fill-color:transparent; border-radius: 50%;
@@ -184,6 +192,24 @@ code {
 }
 .code-orange-color {
     color: rgb(255, 189, 122);
+ }
+ #text-color-front {
+    background: linear-gradient(261.62deg, #AB66E8 -4.66%, #FFC773 110.39%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+ }
+ #text-color-ba {
+    background: linear-gradient(261.62deg, #8671fc -4.66%, #60ec93 110.39%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+ }
+ #education-title {
+    margin-top: 0;
+ }
+ #text-color-ld {
+    background: linear-gradient(261.62deg, #6671ee -4.66%, #60d0ec 110.39%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+ }
+ #text-color-dribbble {
+    background: linear-gradient(261.62deg, #ee55b1 -4.66%, #ef9191 110.39%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+ }
+ #text-color-gumroad {
+    background: linear-gradient(261.62deg, #dcee55 -4.66%, #91ef94 110.39%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
  }
 @media (max-width: 1024px) {
     .wrapper {
