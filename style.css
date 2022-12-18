@@ -155,22 +155,36 @@ footer {
 }
 .code-contaier {
     display: flex;
-    align-self: baseline;
-    align-items: flex-start;
-    align-content: flex-start;
     max-width: 500px;
     min-width: 300px;
     padding: 16px;
-    background-color: rgb(39, 36, 41);
+    background-color: rgb(44, 46, 50);
+    border: rgb(78, 47, 80) solid 1px;
     border-radius: 8px;
 }
 pre {
     margin: 0;
     font-size: 14px;
     line-height: 1.4em;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+    word-wrap: normal;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-weight: 500;
+    white-space: pre;
 }
+code {
+    white-space: break-spaces;
+    word-break: break-word;
+    display: inline;
+}
+.code-blue-color {
+    color:rgb(87, 171, 255);
+}
+.code-yellow-color {
+   color: rgb(242, 224, 136);
+}
+.code-orange-color {
+    color: rgb(255, 189, 122);
+ }
 @media (max-width: 1024px) {
     .wrapper {
         padding-top: 24px;
